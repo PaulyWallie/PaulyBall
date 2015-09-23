@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Exit : MonoBehaviour {
+public class PlayClassicPong : MonoBehaviour {
 
 	void OnMouseDown ()
 	{
@@ -10,6 +10,6 @@ public class Exit : MonoBehaviour {
 	
 	void OnMouseUp ()
 	{
-		Application.LoadLevel (1);
+		Application.LoadLevel (3);
 	}
 }

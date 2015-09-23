@@ -10,6 +10,6 @@ public class NewGame : MonoBehaviour
 
 	void OnMouseUp()
 	{
-		Application.LoadLevel (1);
+		Application.LoadLevel (4);
 	}
 }

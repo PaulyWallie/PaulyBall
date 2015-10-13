@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Options : MonoBehaviour {
+public class PongQuit : MonoBehaviour {
+
 	void OnMouseDown ()
 	{
 		transform.localScale *= 0.9F;
@@ -9,6 +10,6 @@ public class Options : MonoBehaviour {
 	
 	void OnMouseUp ()
 	{
-		Application.LoadLevel (2);
+		Application.LoadLevel(3);
 	}
 }

@@ -3,6 +3,10 @@ using System.Collections;
 
 public class PlayClassicPong : MonoBehaviour {
 
+	void Start(){
+
+	}
+
 	void OnMouseDown ()
 	{
 		transform.localScale *= 0.9F;

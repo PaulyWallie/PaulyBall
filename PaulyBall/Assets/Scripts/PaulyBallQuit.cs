@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Quit : MonoBehaviour 
+public class PaulyBallQuit : MonoBehaviour 
 {
 	void OnMouseDown ()
 	{

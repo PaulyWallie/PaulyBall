@@ -10,7 +10,7 @@ public class PaulyBallSplash : MonoBehaviour {
 
 	
 	IEnumerator LoadLevel(){
-		yield return new WaitForSeconds (6);
+		yield return new WaitForSeconds (3.5f);
 		Application.LoadLevel (1);
 	}
 }

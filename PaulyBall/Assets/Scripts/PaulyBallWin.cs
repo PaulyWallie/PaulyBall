@@ -1,13 +1,16 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 public class PaulyBallWin : MonoBehaviour {
 
-	public GameObject Ball;
+	public GameObject ad;
+	public GameObject nah;
 
 	void OnTriggerEnter(Collider other ){
 		if (PaulyBallBlock.breakableCount <= 0) {
-			Application.LoadLevel(Application.loadedLevel + 1);
+			ad.SetActive(true);
+			nah.SetActive(true);
 		}
 	}
 }

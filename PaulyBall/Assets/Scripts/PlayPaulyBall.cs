@@ -10,6 +10,6 @@ public class PlayPaulyBall : MonoBehaviour {
 	
 	void OnMouseUp ()
 	{
-		Application.LoadLevel (5);
+		Application.LoadLevel (3);
 	}
 }

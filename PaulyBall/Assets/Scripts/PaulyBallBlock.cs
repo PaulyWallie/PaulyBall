@@ -15,7 +15,7 @@ public class PaulyBallBlock : MonoBehaviour {
 			breakableCount++;
 		}
 	}
-
+	
 	void HandleHits(){
 		breakableCount--;
 		Destroy(gameObject);
@@ -23,10 +23,10 @@ public class PaulyBallBlock : MonoBehaviour {
 		GameObject particle = Instantiate(particleObj, transform.position, Quaternion.identity) as GameObject; 
 		Destroy(particle, 5);
 	}
-	
+
 	void OnCollisionEnter(Collision col){
-		if (tag == "Breakable") {
+		if(tag == "Breakable"){
 			HandleHits();
 		}
-	}		
-} 
+	}
+}
